@@ -1,4 +1,3 @@
-<script setup>
-</script>
+<script setup></script>
 
-<template>Home</template>
+<template></template>

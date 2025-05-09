@@ -1,7 +1,15 @@
+:root {
+  --background-color: #ffffff;
+  --base-text-color: #000000;
+  --base-font: 'Opan Sans SemiCondensed', sans-serif;
+  --logo-color: #000000;
+  --input-background: #ebebeb;
+}
+
 @font-face {
   font-family: 'Open Sans SemiCondensed';
   src: url('./fonts/OpenSansSemiCondensed-Regular.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -9,7 +17,7 @@
 @font-face {
   font-family: 'Open Sans SemiCondensed';
   src: url('./fonts/OpenSansSemiCondensed-Bold.woff2') format('woff2');
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -17,7 +25,7 @@
 @font-face {
   font-family: './Open Sans SemiCondensed';
   src: url('fonts/OpenSansSemiCondensed-ExtraBold.woff2') format('woff2');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
